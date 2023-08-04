@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crypto Buttons</title>
+	<style>
+		body {
+			background-color: #e0e0e0;
+		}
+		.button-row {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.crypto-button {
+			width: 200px;
+			height: 200px;
+			margin: 0 10px;
+			background-color: transparent;
+			border: none;
+			cursor: pointer;
+			transition: opacity 0.2s ease-in-out;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.crypto-button:hover {
+			opacity: 0.8;
+		}
+
+		.crypto-button img {
+			max-width: 100%;
+			max-height: 100%;
+		}
+
+		.button-text {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			flex-wrap: wrap;
+		}
+
+		.button-text p {
+			margin: 10px;
+			font-size: 24px;
+			opacity: 0;
+			transition: opacity 0.2s ease-in-out;
+		}
+
+		.crypto-button:active + .button-text p {
+			opacity: 1;
+		}
+	</style>
+</head>
+<br>
+<body>
+	<div class="button-row">
+		<a target="_self" href="btc.html" target="_blank" class="crypto-button">
+			<img src="btc.png" alt="BTC" />
+		</a>
+		<a target="_self" href="eth.html" target="_blank" class="crypto-button">
+			<img src="eth.png" alt="ETH" />
+		</a>
+		<a target="_self" href="doge.html" target="_blank" class="crypto-button">
+			<img src="doge.png" alt="DOGE" />
+		</a>
+	</div>
+	<div class="button-text">
+		<p>BTC</p>
+		<p>ETH</p>
+		<p>DOGE</p>
+	</div>
+<br>
+	<center>
+	<h4>Mājaslapa realizēta projekta darba "Kriptonaudas darbības principi" ietvaros.</h4>
+	<h5>Praktiskajā daļā iespējams aplūkot statistiku par šādiem faktoriem: <br>cena, pašreizējais piedāvājums, maksas, cik grūti iegūt, hash rate, vienas dienas aktīvais piedāvājums, pašreizējais piedāvājums, piedāvājums, 100 populārākās adreses, paredzamā TWh gadā un minimālās TWh gadā. </h5>
+	<h5>Autori: Svens Gotvonī, Krists Mīlenbergs un Ričards Puķudārzs</h5>
+	</center>
+</body>
+</html>
